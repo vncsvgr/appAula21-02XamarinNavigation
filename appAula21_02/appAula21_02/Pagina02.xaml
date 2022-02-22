@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appAula21_02.Pagina02">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Página 02" HorizontalTextAlignment="Center" FontSize="36" />
+            <Button x:Name="btnAnterior" Text="Página Anterior" Clicked="btnAnterior_Clicked" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

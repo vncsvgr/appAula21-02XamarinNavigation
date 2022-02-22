@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appAula21_02.MainPage">
+
+    <StackLayout>
+
+        <Label Text="Página 01" HorizontalTextAlignment="Center" FontSize="36" />
+        <Button x:Name="btnProxima" Text="Próxima Página" Clicked="btnProxima_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>
